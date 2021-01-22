@@ -1,2 +1,2 @@
 import imgkit
-imgkit.from_url('','./img/img.png')
+imgkit.from_url('../http/nesus2.html','./img/img.png')
