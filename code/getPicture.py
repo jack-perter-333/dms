@@ -25,4 +25,4 @@ def clearHTML(path):
    fw = open('''../html/nessus3.html''','w')
    fw.write(fHTML)
 clearHTML('../html/nessus2.html')
-imgkit.from_url('../html/nessus2.html','../img/img.png')
+imgkit.from_url('../html/nessus3.html','../img/img.png')
