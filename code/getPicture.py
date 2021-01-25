@@ -4,7 +4,7 @@ def clearHTML(path):
    fr = open(path,'r')
    fHTML = fr.read()
    #loai bo header
-   r= re.search('''<header.*>[\s\S\d\w\W]*<div xmlns="" id="idm92303861" style="display: none;" class="table-wrapper ">''',fHTML)
+   r= re.search('''<header.*>[\s\S\d\w\W]*<div xmlns="" id="idm92057077" style="display: block;" class="table-wrapper ">''',fHTML)
    #loai bo floot
    r1 = re.search('''<div xmlns="" style="height: 40.*[\s\S\d\w\W]*</div>''',fHTML)
    r2 = re.search('''<div class="clear"></div>
