@@ -1,4 +1,5 @@
 # run code
+python /dms/code/clearhtml.py
 python /dms/code/pic.py
 # save html file in here
 /dms/html/nessus2.html
