@@ -22,6 +22,7 @@ def clearHTML(path):
       fHTML=fHTML.replace(replace,"")
    t = '''<span onclick="toggle('idm92303861');" class="button" style="margin-top: 20px">Hide</span><div class="clear"></div>'''
    fHTML = fHTML.replace(t,'')
+   fHTML= fHTML.replace('Nessus Essentials',"")
    fw = open('''../html/nessus3.html''','w')
    fw.write(fHTML)
 clearHTML('../html/nessus2.html')
